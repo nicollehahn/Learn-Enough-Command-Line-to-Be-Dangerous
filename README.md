@@ -4,9 +4,9 @@ All exercises in Question and Answer form, from Hartl's Learn Enough Command Lin
 ## Table of Contents
 
 - [1: Basics](#1-basics)
-  - [1.1: Running a terminal](#11-running-a-terminal)
+  - [1.2: Running a terminal](#11-running-a-terminal)
     - [Exercise: 2](#exercise-2)
-  - [1.2: Our first command](#12-our-first-command)
+  - [1.3: Our first command](#12-our-first-command)
     - [Exercise: 1](#exercise-1)
     - [Exercise: 2](#exercise-2-1)
   - [1.3: Man pages](#13-man-pages)
@@ -95,7 +95,7 @@ All exercises in Question and Answer form, from Hartl's Learn Enough Command Lin
 
 ## 1: Basics
 
-### 1.1: Running a terminal
+### 1.2: Running a terminal
 
 #### Exercise: 2
 
@@ -106,3 +106,24 @@ Extra credit: Learn the keyboard shortcut for creating a new tab.
 A: `ctrl + alt + t`
 
 ---
+
+### 1.3: Our first command
+
+#### Exercise: 1
+
+Q: Write a command that prints out the string “hello, world”. 
+
+Extra credit: As in Listing 1.1, do it two different ways, both with and without using quotation marks. 
+
+A: echo "hello, world" 
+   echo hello, world
+
+#### Exercise: 2
+
+Q: Type the command echo 'hello (with a mismatched single quote), and then get out of trouble using the technique from Box 1.4. 
+
+A: echo "hello 
+   'ctrl + c'
+
+---
+
