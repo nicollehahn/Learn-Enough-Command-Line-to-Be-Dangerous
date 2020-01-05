@@ -103,7 +103,7 @@ Q: By examining the menu items for your terminal program, figure out how to crea
 
    Extra credit: Learn the keyboard shortcut for creating a new tab.
 
-A: `ctrl + alt + t`
+A: Press `ctrl + t`
 
 ---
 
@@ -115,13 +115,13 @@ Q: Write a command that prints out the string “hello, world”.
 
 Extra credit: As in Listing 1.1, do it two different ways, both with and without using quotation marks. 
 
-A: `echo "hello, world"` , `echo hello, world`
+A: Type `echo "hello, world"` , `echo hello, world`
 
 #### Exercise: 2
 
 Q: Type the command echo 'hello (with a mismatched single quote), and then get out of trouble using the technique from Box 1.4. 
 
-A: `echo "hello` , `'ctrl + c'`
+A: Type `echo "hello` , press `'ctrl + c'`
 
 ---
 
@@ -131,13 +131,13 @@ A: `echo "hello` , `'ctrl + c'`
 
 Q:  According to the man page, what are the official short and long descriptions of `echo` on your system? 
 
-A: display a line of text, write arguments to the standard output
+A: Display a line of text, write arguments to the standard output
 
 #### Exercise: 2
 
 Q:  By reading the man page for `echo`, determine the command needed to print out “hello” without the trailing newline, and verify using your terminal that it works as expected.
 
-A: echo -n [text]
+A: Type `echo -n [text]`
 
 ---
 
@@ -147,13 +147,13 @@ A: echo -n [text]
 
 Q:  Using the up arrow, print to the screen the strings “fee”, “fie”, “foe”, and “fum” without retyping echo each time.
 
-A: `echo fee`, use up arrow each time to replace each letter
+A: Type `echo fee`, use up arrow each time to replace each letter
 
 #### Exercise: 2
 
 Q:  Starting with the line in Listing 1.6, use any combination of ⌃A, ⌃E, arrow keys, or Option-click to change the occurrences of the short s to the archaic long s “ſ” in order to match the appearance of the original (Figure 1.11). In other words, the argument to `echo` should read “FRom faireſt creatures we deſire increaſe,”.
 
-A: Use up arrow to get to the line.  Option-click to replace letter "s" with "f" to resemble this line: "FRom faireſt creatures we deſire increaſe,"
+A: Use up arrow to get to the line.  Use Option-click to replace letter "s" with "f" to resemble this line: "FRom faireſt creatures we deſire increaſe,"
 
 ---
 
@@ -163,15 +163,15 @@ A: Use up arrow to get to the line.  Option-click to replace letter "s" with "f"
 
 Q:  Clear the contents of the current tab. 
 
-A: `CMD + k` or type out `CLEAR`
+A: Press `CMD + K` or type `CLEAR`
 
 #### Exercise: 2
 
 Q:  Open a new tab, execute echo 'hello', and then exit. 
 
-A: `CMD + t` to open new tab, `echo 'hello' , `CMD + W` to exit.
+A: Press `CMD + T` to open new tab, type `echo 'hello' , press `CMD + W` to exit.
 
-#### Note: best to consult terminal `File tab` to learn commands.
+##### Note: Best to consult terminal `"File" tab` to learn commands.
 
 ---
 
@@ -181,18 +181,18 @@ A: `CMD + t` to open new tab, `echo 'hello' , `CMD + W` to exit.
 
 Q:  Write a command to print the string `Use "man echo"`, including the quotes; i.e., take care not to print out `Use man echo` instead.
 
-A: `echo 'Use "man echo"'`
+A: Type `echo 'Use "man echo"'`
 
 #### Exercise: 2
 
 Q:  By running `man sleep`, figure out how to make the terminal “sleep” for 5 seconds, and execute the command to do so. 
 
-A: `man sleep` , type `q` to quit manual,q `sleep 5`
+A: Type `man sleep` , press `Q` to quit manual, type `sleep 5`
 
 #### Exercise: 3
 
 Q:  Execute the command to sleep for 5000 seconds, realize that’s well over an hour, and then use the instructions from Box 1.4 to get out of trouble. 
 
-A: `sleep 5000` , `CTRL + c`
+A: Type `sleep 5000` , press `CTRL + C`
 
 ---
