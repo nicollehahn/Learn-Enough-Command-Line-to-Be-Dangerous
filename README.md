@@ -1,4 +1,4 @@
-# Learn-Enough-Command-Line-to-Be-Dangerous
+# Learn Enough Command Line to Be Dangerous
 All exercises in Question and Answer form, from Hartl's Learn Enough Command Line to Be Dangerous
 
 ## Table of Contents
@@ -9,16 +9,16 @@ All exercises in Question and Answer form, from Hartl's Learn Enough Command Lin
   - [1.3: Our first command](#12-our-first-command)
     - [Exercise: 1](#exercise-1)
     - [Exercise: 2](#exercise-2-1)
-  - [1.3: Man pages](#13-man-pages)
+  - [1.4: Man pages](#13-man-pages)
     - [Exercise: 1](#exercise-1-1)
     - [Exercise: 2](#exercise-2-2)
-  - [1.4: Editing the line](#14-editing-the-line)
+  - [1.5: Editing the line](#14-editing-the-line)
     - [Exercise: 1](#exercise-1-2)
     - [Exercise: 2](#exercise-2-3)
-  - [1.5: Cleaning up](#15-cleaning-up)
+  - [1.6: Cleaning up](#15-cleaning-up)
     - [Exercise: 1](#exercise-1-3)
     - [Exercise: 2](#exercise-2-4)
-  - [1.6: Summary](#16-summary)
+  - [1.7: Summary](#16-summary)
     - [Exercise: 1](#exercise-1-4)
     - [Exercise: 2](#exercise-2-5)
 - [2: Manipulating files](#2-manipulating-files)
@@ -101,7 +101,7 @@ All exercises in Question and Answer form, from Hartl's Learn Enough Command Lin
 
 Q: By examining the menu items for your terminal program, figure out how to create a new tab. 
 
-Extra credit: Learn the keyboard shortcut for creating a new tab.
+   Extra credit: Learn the keyboard shortcut for creating a new tab.
 
 A: `ctrl + alt + t`
 
@@ -115,17 +115,84 @@ Q: Write a command that prints out the string “hello, world”.
 
 Extra credit: As in Listing 1.1, do it two different ways, both with and without using quotation marks. 
 
-A: `echo "hello, world"`  
-
-   `echo hello, world`
+A: `echo "hello, world"` , `echo hello, world`
 
 #### Exercise: 2
 
 Q: Type the command echo 'hello (with a mismatched single quote), and then get out of trouble using the technique from Box 1.4. 
 
-A: `echo "hello`  
-
-   `'ctrl + c'`
+A: `echo "hello` , `'ctrl + c'`
 
 ---
 
+### 1.4: Man Pages 
+
+#### Exercise: 1
+
+Q:  According to the man page, what are the official short and long descriptions of `echo` on your system? 
+
+A: display a line of text, write arguments to the standard output
+
+#### Exercise: 2
+
+Q:  By reading the man page for `echo`, determine the command needed to print out “hello” without the trailing newline, and verify using your terminal that it works as expected.
+
+A: echo -n [text]
+
+---
+
+### 1.5: Editing the Line
+
+#### Exercise: 1
+
+Q:  Using the up arrow, print to the screen the strings “fee”, “fie”, “foe”, and “fum” without retyping echo each time.
+
+A: `echo fee`, use up arrow each time to replace each letter
+
+#### Exercise: 2
+
+Q:  Starting with the line in Listing 1.6, use any combination of ⌃A, ⌃E, arrow keys, or Option-click to change the occurrences of the short s to the archaic long s “ſ” in order to match the appearance of the original (Figure 1.11). In other words, the argument to `echo` should read “FRom faireſt creatures we deſire increaſe,”.
+
+A: Use up arrow to get to the line.  Option-click to replace letter "s" with "f" to resemble this line: "FRom faireſt creatures we deſire increaſe,"
+
+---
+
+### 1.6: Cleaning Up
+
+#### Exercise: 1
+
+Q:  Clear the contents of the current tab. 
+
+A: `CMD + k` or type out `CLEAR`
+
+#### Exercise: 2
+
+Q:  Open a new tab, execute echo 'hello', and then exit. 
+
+A: `CMD + t` to open new tab, `echo 'hello' , `CMD + W` to exit.
+
+#### Note: best to consult terminal `File tab` to learn commands.
+
+---
+
+### 1.7: Summary
+
+#### Exercise: 1
+
+Q:  Write a command to print the string `Use "man echo"`, including the quotes; i.e., take care not to print out `Use man echo` instead.
+
+A: `echo 'Use "man echo"'`
+
+#### Exercise: 2
+
+Q:  By running `man sleep`, figure out how to make the terminal “sleep” for 5 seconds, and execute the command to do so. 
+
+A: `man sleep` , type `q` to quit manual,q `sleep 5`
+
+#### Exercise: 3
+
+Q:  Execute the command to sleep for 5000 seconds, realize that’s well over an hour, and then use the instructions from Box 1.4 to get out of trouble. 
+
+A: `sleep 5000` , `CTRL + c`
+
+---
